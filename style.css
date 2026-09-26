@@ -1,0 +1,1610 @@
+/* =====================================================
+   COCO CV MAKER
+   COMPLETE STYLES
+===================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+
+    --black: #171717;
+
+    --dark: #242424;
+
+    --gold: #b08d57;
+
+    --light-gold: #d8bf91;
+
+    --white: #ffffff;
+
+    --background: #f3f2ef;
+
+    --gray: #777777;
+
+    --border: #dddddd;
+
+}
+
+
+/* =====================================================
+   BODY
+===================================================== */
+
+body {
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background:
+        var(--background);
+
+    color:
+        var(--black);
+
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.topbar {
+
+    height: 85px;
+
+    background:
+        var(--black);
+
+    color:
+        white;
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        center;
+
+    padding:
+        0 7%;
+
+}
+
+
+.logo {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        12px;
+
+}
+
+
+.logo-icon {
+
+    width:
+        43px;
+
+    height:
+        43px;
+
+    border:
+        1px solid var(--gold);
+
+    display:
+        flex;
+
+    justify-content:
+        center;
+
+    align-items:
+        center;
+
+    color:
+        var(--gold);
+
+}
+
+
+.logo h1 {
+
+    font-size:
+        22px;
+
+    letter-spacing:
+        4px;
+
+}
+
+
+.logo span {
+
+    display:
+        block;
+
+    font-size:
+        9px;
+
+    letter-spacing:
+        3px;
+
+    color:
+        var(--light-gold);
+
+}
+
+
+.header-text {
+
+    font-size:
+        11px;
+
+    letter-spacing:
+        2px;
+
+    color:
+        #aaa;
+
+}
+
+
+/* =====================================================
+   MAIN
+===================================================== */
+
+.container {
+
+    max-width:
+        920px;
+
+    margin:
+        auto;
+
+    padding:
+        55px 25px;
+
+}
+
+
+/* =====================================================
+   WELCOME
+===================================================== */
+
+.welcome {
+
+    text-align:
+        center;
+
+    margin-bottom:
+        40px;
+
+}
+
+
+.small-title {
+
+    color:
+        var(--gold);
+
+    font-size:
+        11px;
+
+    letter-spacing:
+        4px;
+
+    font-weight:
+        bold;
+
+    margin-bottom:
+        12px;
+
+}
+
+
+.welcome h2 {
+
+    font-size:
+        38px;
+
+    margin-bottom:
+        15px;
+
+}
+
+
+.welcome h2 span {
+
+    color:
+        var(--gold);
+
+}
+
+
+.welcome > p:last-child {
+
+    color:
+        var(--gray);
+
+    font-size:
+        14px;
+
+}
+
+
+/* =====================================================
+   CARD
+===================================================== */
+
+.section-card {
+
+    background:
+        white;
+
+    padding:
+        30px;
+
+    margin-bottom:
+        25px;
+
+    border:
+        1px solid #e1dfdb;
+
+    box-shadow:
+        0 8px 30px rgba(0,0,0,0.04);
+
+}
+
+
+.section-title {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        15px;
+
+    margin-bottom:
+        25px;
+
+}
+
+
+.section-icon {
+
+    width:
+        45px;
+
+    height:
+        45px;
+
+    background:
+        var(--black);
+
+    color:
+        var(--gold);
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+}
+
+
+.section-title h3 {
+
+    font-size:
+        17px;
+
+}
+
+
+.section-title p {
+
+    color:
+        #888;
+
+    font-size:
+        12px;
+
+    margin-top:
+        4px;
+
+}
+
+
+/* =====================================================
+   FORM
+===================================================== */
+
+.form-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap:
+        20px;
+
+}
+
+
+.input-box.full {
+
+    grid-column:
+        1 / -1;
+
+}
+
+
+.input-box label {
+
+    display:
+        block;
+
+    font-size:
+        12px;
+
+    font-weight:
+        bold;
+
+    margin-bottom:
+        8px;
+
+}
+
+
+.input-box label i {
+
+    color:
+        var(--gold);
+
+    margin-right:
+        5px;
+
+}
+
+
+.input-box input,
+.input-box textarea {
+
+    width:
+        100%;
+
+    padding:
+        13px 14px;
+
+    border:
+        1px solid var(--border);
+
+    background:
+        #fafafa;
+
+    outline:
+        none;
+
+    font-size:
+        14px;
+
+}
+
+
+.input-box input:focus,
+.input-box textarea:focus {
+
+    border-color:
+        var(--gold);
+
+    background:
+        white;
+
+}
+
+
+.input-box textarea {
+
+    min-height:
+        110px;
+
+    resize:
+        vertical;
+
+}
+
+
+/* =====================================================
+   EDUCATION
+===================================================== */
+
+.education-item {
+
+    display:
+        flex;
+
+    gap:
+        18px;
+
+    padding:
+        20px;
+
+    margin-bottom:
+        15px;
+
+    border:
+        1px solid #e3e1dd;
+
+    background:
+        #fff;
+
+}
+
+
+.education-number {
+
+    width:
+        38px;
+
+    height:
+        38px;
+
+    min-width:
+        38px;
+
+    background:
+        var(--black);
+
+    color:
+        var(--gold);
+
+    display:
+        flex;
+
+    justify-content:
+        center;
+
+    align-items:
+        center;
+
+    font-size:
+        11px;
+
+    font-weight:
+        bold;
+
+}
+
+
+.education-content {
+
+    flex:
+        1;
+
+}
+
+
+.education-content h4 {
+
+    font-size:
+        14px;
+
+    margin-bottom:
+        18px;
+
+}
+
+
+.education-content h4 i {
+
+    color:
+        var(--gold);
+
+    margin-right:
+        6px;
+
+}
+
+
+/* =====================================================
+   EXPERIENCE
+===================================================== */
+
+.experience-card {
+
+    display:
+        flex;
+
+    gap:
+        18px;
+
+    padding:
+        20px;
+
+    border:
+        1px solid #e3e1dd;
+
+    margin-bottom:
+        15px;
+
+}
+
+
+.experience-number {
+
+    width:
+        38px;
+
+    height:
+        38px;
+
+    min-width:
+        38px;
+
+    background:
+        var(--black);
+
+    color:
+        var(--gold);
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    font-size:
+        11px;
+
+    font-weight:
+        bold;
+
+}
+
+
+.experience-content {
+
+    flex:
+        1;
+
+}
+
+
+.generate-description {
+
+    margin-top:
+        8px;
+
+    border:
+        none;
+
+    background:
+        var(--black);
+
+    color:
+        var(--gold);
+
+    padding:
+        9px 14px;
+
+    cursor:
+        pointer;
+
+    font-size:
+        11px;
+
+}
+
+
+.generate-description:hover {
+
+    background:
+        var(--gold);
+
+    color:
+        white;
+
+}
+
+
+.add-button {
+
+    background:
+        transparent;
+
+    border:
+        1px dashed var(--gold);
+
+    color:
+        var(--gold);
+
+    padding:
+        12px 18px;
+
+    cursor:
+        pointer;
+
+    font-weight:
+        bold;
+
+}
+
+
+/* =====================================================
+   PHOTO
+===================================================== */
+
+.photo-upload {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        25px;
+
+}
+
+
+.photo-preview {
+
+    width:
+        100px;
+
+    height:
+        100px;
+
+    border:
+        1px dashed var(--gold);
+
+    display:
+        flex;
+
+    justify-content:
+        center;
+
+    align-items:
+        center;
+
+    color:
+        var(--gold);
+
+    overflow:
+        hidden;
+
+}
+
+
+.photo-preview img {
+
+    width:
+        100%;
+
+    height:
+        100%;
+
+    object-fit:
+        cover;
+
+}
+
+
+.upload-button {
+
+    display:
+        inline-block;
+
+    background:
+        var(--black);
+
+    color:
+        white;
+
+    padding:
+        12px 18px;
+
+    cursor:
+        pointer;
+
+    font-size:
+        12px;
+
+}
+
+
+.upload-button i {
+
+    color:
+        var(--gold);
+
+    margin-right:
+        6px;
+
+}
+
+
+.photo-upload p {
+
+    color:
+        #999;
+
+    font-size:
+        11px;
+
+    margin-top:
+        8px;
+
+}
+
+
+/* =====================================================
+   GENERATE BUTTON
+===================================================== */
+
+.generate-cv {
+
+    width:
+        100%;
+
+    border:
+        none;
+
+    background:
+        var(--black);
+
+    color:
+        white;
+
+    padding:
+        19px 25px;
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        center;
+
+    cursor:
+        pointer;
+
+    font-weight:
+        bold;
+
+    letter-spacing:
+        1px;
+
+}
+
+
+.generate-cv i {
+
+    color:
+        var(--gold);
+
+}
+
+
+.secure-text {
+
+    text-align:
+        center;
+
+    margin-top:
+        15px;
+
+    color:
+        #999;
+
+    font-size:
+        11px;
+
+}
+
+
+.secure-text i {
+
+    color:
+        var(--gold);
+
+}
+
+
+/* =====================================================
+   CV PAGE
+===================================================== */
+
+.cv-page {
+
+    min-height:
+        100vh;
+
+    background:
+        #252525;
+
+}
+
+
+.hidden {
+
+    display:
+        none !important;
+
+}
+
+
+.cv-topbar {
+
+    height:
+        70px;
+
+    background:
+        var(--black);
+
+    color:
+        white;
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        center;
+
+    padding:
+        0 6%;
+
+}
+
+
+.back-button {
+
+    background:
+        transparent;
+
+    border:
+        1px solid #555;
+
+    color:
+        white;
+
+    padding:
+        10px 15px;
+
+    cursor:
+        pointer;
+
+}
+
+
+.back-button i {
+
+    color:
+        var(--gold);
+
+    margin-right:
+        7px;
+
+}
+
+
+.cv-logo {
+
+    font-weight:
+        bold;
+
+    letter-spacing:
+        3px;
+
+}
+
+
+.cv-logo span {
+
+    color:
+        var(--gold);
+
+    font-size:
+        10px;
+
+}
+
+
+/* =====================================================
+   CV WRAPPER
+===================================================== */
+
+.cv-wrapper {
+
+    padding:
+        40px 20px 70px;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    align-items:
+        center;
+
+}
+
+
+/* =====================================================
+   A4 CV
+===================================================== */
+
+.cv-document {
+
+    width:
+        210mm;
+
+    min-height:
+        297mm;
+
+    background:
+        white;
+
+    padding:
+        15mm 16mm;
+
+    color:
+        #222;
+
+    box-shadow:
+        0 15px 50px rgba(0,0,0,0.35);
+
+}
+
+
+/* =====================================================
+   CV HEADER
+===================================================== */
+
+.cv-header {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        center;
+
+    border-bottom:
+        2px solid var(--gold);
+
+    padding-bottom:
+        18px;
+
+}
+
+
+.cv-header h1 {
+
+    font-size:
+        30px;
+
+    letter-spacing:
+        2px;
+
+}
+
+
+.cv-header p {
+
+    color:
+        var(--gold);
+
+    font-size:
+        11px;
+
+    letter-spacing:
+        3px;
+
+    margin-top:
+        7px;
+
+}
+
+
+.cv-photo {
+
+    width:
+        105px;
+
+    height:
+        105px;
+
+    object-fit:
+        cover;
+
+    border:
+        4px solid white;
+
+    outline:
+        1px solid var(--gold);
+
+}
+
+
+/* =====================================================
+   CONTACT
+===================================================== */
+
+.contact-row {
+
+    display:
+        flex;
+
+    gap:
+        18px;
+
+    flex-wrap:
+        wrap;
+
+    padding:
+        11px 0;
+
+    border-bottom:
+        1px solid #ddd;
+
+    font-size:
+        8.5px;
+
+}
+
+
+.contact-row i {
+
+    color:
+        var(--gold);
+
+    margin-right:
+        4px;
+
+}
+
+
+/* =====================================================
+   CV SECTION
+===================================================== */
+
+.cv-section {
+
+    margin-top:
+        17px;
+
+}
+
+
+.cv-section h2 {
+
+    font-size:
+        12px;
+
+    letter-spacing:
+        2px;
+
+}
+
+
+.gold-line {
+
+    width:
+        32px;
+
+    height:
+        2px;
+
+    background:
+        var(--gold);
+
+    margin:
+        6px 0 10px;
+
+}
+
+
+.cv-section > p {
+
+    font-size:
+        9px;
+
+    line-height:
+        1.6;
+
+    color:
+        #555;
+
+}
+
+
+/* =====================================================
+   EDUCATION CV
+===================================================== */
+
+.cv-education-item {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    padding:
+        8px 10px;
+
+    margin-bottom:
+        7px;
+
+    background:
+        #f6f5f2;
+
+    border-left:
+        2px solid var(--gold);
+
+}
+
+
+.cv-education-left {
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    gap:
+        3px;
+
+}
+
+
+.cv-degree {
+
+    font-size:
+        10px;
+
+    font-weight:
+        bold;
+
+}
+
+
+.cv-university {
+
+    font-size:
+        8.5px;
+
+    color:
+        #666;
+
+}
+
+
+.cv-education-year {
+
+    font-size:
+        8.5px;
+
+    color:
+        var(--gold);
+
+    font-weight:
+        bold;
+
+}
+
+
+/* =====================================================
+   EXPERIENCE CV
+===================================================== */
+
+.cv-experience-item {
+
+    margin-bottom:
+        14px;
+
+}
+
+
+.cv-job-header {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+}
+
+
+.cv-job-title {
+
+    font-size:
+        10px;
+
+    font-weight:
+        bold;
+
+}
+
+
+.cv-company {
+
+    color:
+        var(--gold);
+
+    font-size:
+        9px;
+
+    margin-top:
+        3px;
+
+}
+
+
+.cv-date {
+
+    color:
+        #777;
+
+    font-size:
+        8px;
+
+}
+
+
+.cv-description {
+
+    margin-top:
+        5px;
+
+}
+
+
+.cv-description li {
+
+    margin-left:
+        15px;
+
+    font-size:
+        8px;
+
+    line-height:
+        1.55;
+
+    color:
+        #555;
+
+}
+
+
+/* =====================================================
+   PERSONAL DETAILS
+===================================================== */
+
+.personal-details {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap:
+        8px;
+
+}
+
+
+.personal-details div {
+
+    background:
+        #f6f5f2;
+
+    padding:
+        8px;
+
+}
+
+
+.personal-details strong {
+
+    display:
+        block;
+
+    font-size:
+        8px;
+
+    color:
+        #777;
+
+    margin-bottom:
+        3px;
+
+}
+
+
+.personal-details span {
+
+    font-size:
+        9px;
+
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.cv-footer {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    border-top:
+        1px solid #ddd;
+
+    margin-top:
+        20px;
+
+    padding-top:
+        9px;
+
+    font-size:
+        6.5px;
+
+    color:
+        #999;
+
+    letter-spacing:
+        1px;
+
+}
+
+
+/* =====================================================
+   PDF BUTTON
+===================================================== */
+
+.pdf-button {
+
+    margin-top:
+        30px;
+
+    background:
+        var(--gold);
+
+    color:
+        white;
+
+    border:
+        none;
+
+    padding:
+        15px 30px;
+
+    cursor:
+        pointer;
+
+    font-weight:
+        bold;
+
+    letter-spacing:
+        1px;
+
+}
+
+
+.pdf-button:hover {
+
+    background:
+        #95743f;
+
+}
+
+
+.pdf-status {
+
+    color:
+        white;
+
+    font-size:
+        12px;
+
+    margin-top:
+        12px;
+
+    text-align:
+        center;
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media(max-width:700px) {
+
+    .topbar {
+
+        padding:
+            0 20px;
+
+    }
+
+
+    .header-text {
+
+        display:
+            none;
+
+    }
+
+
+    .container {
+
+        padding:
+            35px 15px;
+
+    }
+
+
+    .welcome h2 {
+
+        font-size:
+            28px;
+
+    }
+
+
+    .section-card {
+
+        padding:
+            20px;
+
+    }
+
+
+    .form-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .input-box.full {
+
+        grid-column:
+            auto;
+
+    }
+
+
+    .education-item,
+    .experience-card {
+
+        padding:
+            12px;
+
+    }
+
+
+    .cv-wrapper {
+
+        overflow-x:
+            auto;
+
+        align-items:
+            flex-start;
+
+    }
+
+
+    .cv-topbar {
+
+        padding:
+            0 15px;
+
+    }
+
+}
+
+
+/* =====================================================
+   IMPORTANT PDF PRINT CSS
+===================================================== */
+
+@media print {
+
+    body {
+
+        background:
+            white;
+
+    }
+
+
+    .cv-page {
+
+        background:
+            white;
+
+    }
+
+
+    .cv-topbar,
+    .pdf-button,
+    .pdf-status {
+
+        display:
+            none !important;
+
+    }
+
+
+    .cv-wrapper {
+
+        padding:
+            0;
+
+    }
+
+
+    .cv-document {
+
+        box-shadow:
+            none;
+
+        margin:
+            0;
+
+        width:
+            210mm;
+
+        min-height:
+            297mm;
+
+    }
+
+}
+

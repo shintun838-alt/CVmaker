@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>COCO CV MAKER</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- PDF Library -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js">
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     PAGE 1 : CV FORM
+===================================================== -->
+
+<section id="formPage">
+
+    <!-- HEADER -->
+
+    <header class="topbar">
+
+        <div class="logo">
+
+            <div class="logo-icon">
+                <i class="fa-solid fa-crown"></i>
+            </div>
+
+            <div>
+                <h1>COCO</h1>
+                <span>CV MAKER</span>
+            </div>
+
+        </div>
+
+        <div class="header-text">
+            PROFESSIONAL CV BUILDER
+        </div>
+
+    </header>
+
+
+    <main class="container">
+
+        <!-- INTRO -->
+
+        <div class="welcome">
+
+            <p class="small-title">
+                CREATE YOUR FUTURE
+            </p>
+
+            <h2>
+                Build Your
+                <span>Professional CV</span>
+            </h2>
+
+            <p>
+                Enter your information and COCO CV MAKER
+                will create a professional CV for you.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             PERSONAL INFORMATION
+        ================================================= -->
+
+        <div class="section-card">
+
+            <div class="section-title">
+
+                <div class="section-icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <div>
+                    <h3>Personal Information</h3>
+                    <p>Your basic information</p>
+                </div>
+
+            </div>
+
+
+            <div class="form-grid">
+
+                <!-- NAME -->
+
+                <div class="input-box">
+
+                    <label>
+                        <i class="fa-solid fa-user"></i>
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your full name">
+
+                </div>
+
+
+                <!-- DOB -->
+
+                <div class="input-box">
+
+                    <label>
+                        <i class="fa-solid fa-calendar"></i>
+                        Date of Birth
+                    </label>
+
+                    <input
+                        type="date"
+                        id="dob">
+
+                </div>
+
+
+                <!-- AGE -->
+
+                <div class="input-box">
+
+                    <label>
+                        <i class="fa-solid fa-cake-candles"></i>
+                        Age
+                    </label>
+
+                    <input
+                        type="text"
+                        id="age"
+                        readonly
+                        placeholder="Automatically calculated">
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="input-box">
+
+                    <label>
+                        <i class="fa-solid fa-envelope"></i>
+                        Gmail
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="example@gmail.com">
+
+                </div>
+
+
+                <!-- PHONE -->
+
+                <div class="input-box">
+
+                    <label>
+                        <i class="fa-solid fa-phone"></i>
+                        Phone
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="+95 9xxxxxxxxx">
+
+                </div>
+
+
+                <!-- ADDRESS -->
+
+                <div class="input-box full">
+
+                    <label>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Address
+                    </label>
+
+                    <input
+                        type="text"
+                        id="address"
+                        placeholder="Enter your address">
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             EDUCATION
+        ================================================= -->
+
+        <div class="section-card">
+
+            <div class="section-title">
+
+                <div class="section-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <div>
+
+                    <h3>
+                        Education & Qualifications
+                    </h3>
+
+                    <p>
+                        Add your academic qualifications
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- BACHELOR -->
+
+            <div class="education-item">
+
+                <div class="education-number">
+                    01
+                </div>
+
+                <div class="education-content">
+
+                    <h4>
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        Bachelor
+                    </h4>
+
+                    <div class="form-grid">
+
+                        <div class="input-box">
+
+                            <label>
+                                University Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="bachelorUniversity"
+                                placeholder="University name">
+
+                        </div>
+
+                        <div class="input-box">
+
+                            <label>
+                                Graduation Year
+                            </label>
+
+                            <input
+                                type="number"
+                                id="bachelorYear"
+                                placeholder="2026"
+                                min="1900"
+                                max="2100">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- MASTER -->
+
+            <div class="education-item">
+
+                <div class="education-number">
+                    02
+                </div>
+
+                <div class="education-content">
+
+                    <h4>
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        Master
+                    </h4>
+
+                    <div class="form-grid">
+
+                        <div class="input-box">
+
+                            <label>
+                                University Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="masterUniversity"
+                                placeholder="University name">
+
+                        </div>
+
+                        <div class="input-box">
+
+                            <label>
+                                Graduation Year
+                            </label>
+
+                            <input
+                                type="number"
+                                id="masterYear"
+                                placeholder="2026"
+                                min="1900"
+                                max="2100">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PHD -->
+
+            <div class="education-item">
+
+                <div class="education-number">
+                    03
+                </div>
+
+                <div class="education-content">
+
+                    <h4>
+                        <i class="fa-solid fa-award"></i>
+                        PhD
+                    </h4>
+
+                    <div class="form-grid">
+
+                        <div class="input-box">
+
+                            <label>
+                                University Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="phdUniversity"
+                                placeholder="University name">
+
+                        </div>
+
+                        <div class="input-box">
+
+                            <label>
+                                Graduation Year
+                            </label>
+
+                            <input
+                                type="number"
+                                id="phdYear"
+                                placeholder="2026"
+                                min="1900"
+                                max="2100">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- DIPLOMA -->
+
+            <div class="education-item">
+
+                <div class="education-number">
+                    04
+                </div>
+
+                <div class="education-content">
+
+                    <h4>
+                        <i class="fa-solid fa-certificate"></i>
+                        Diploma & Other Certificates
+                    </h4>
+
+                    <div class="form-grid">
+
+                        <div class="input-box">
+
+                            <label>
+                                University / Institution Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="diplomaUniversity"
+                                placeholder="University or institution">
+
+                        </div>
+
+                        <div class="input-box">
+
+                            <label>
+                                Graduation / Completion Year
+                            </label>
+
+                            <input
+                                type="number"
+                                id="diplomaYear"
+                                placeholder="2026"
+                                min="1900"
+                                max="2100">
+
+                        </div>
+
+
+                        <div class="input-box full">
+
+                            <label>
+                                Diploma / Certificate Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="diplomaName"
+                                placeholder="Example: Diploma in Business Management">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             WORK EXPERIENCE
+        ================================================= -->
+
+        <div class="section-card">
+
+            <div class="section-title">
+
+                <div class="section-icon">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+
+                <div>
+
+                    <h3>
+                        Working Experience
+                    </h3>
+
+                    <p>
+                        Add your previous work experience
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div id="experienceContainer">
+
+
+                <!-- EXPERIENCE 1 -->
+
+                <div class="experience-card">
+
+                    <div class="experience-number">
+                        01
+                    </div>
+
+                    <div class="experience-content">
+
+                        <div class="form-grid">
+
+                            <div class="input-box">
+
+                                <label>
+                                    Job Position
+                                </label>
+
+                                <input
+                                    type="text"
+                                    class="job-position"
+                                    placeholder="Example: Office Staff">
+
+                            </div>
+
+
+                            <div class="input-box">
+
+                                <label>
+                                    Company Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    class="company-name"
+                                    placeholder="Example: ABC Company">
+
+                            </div>
+
+
+                            <div class="input-box">
+
+                                <label>
+                                    Start Date
+                                </label>
+
+                                <input
+                                    type="month"
+                                    class="start-date">
+
+                            </div>
+
+
+                            <div class="input-box">
+
+                                <label>
+                                    End Date
+                                </label>
+
+                                <input
+                                    type="month"
+                                    class="end-date">
+
+                            </div>
+
+
+                            <div class="input-box full">
+
+                                <label>
+                                    Work Description
+                                </label>
+
+                                <textarea
+                                    class="work-description"
+                                    placeholder="Enter your position and click Auto Generate">
+                                </textarea>
+
+
+                                <button
+                                    type="button"
+                                    class="generate-description">
+
+                                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                                    Auto Generate
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <button
+                type="button"
+                id="addExperience"
+                class="add-button">
+
+                <i class="fa-solid fa-plus"></i>
+
+                Add Another Experience
+
+            </button>
+
+        </div>
+
+
+
+        <!-- =================================================
+             PHOTO
+        ================================================= -->
+
+        <div class="section-card">
+
+            <div class="section-title">
+
+                <div class="section-icon">
+                    <i class="fa-solid fa-camera"></i>
+                </div>
+
+                <div>
+
+                    <h3>
+                        Profile Photo
+                    </h3>
+
+                    <p>
+                        Add a professional photo
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="photo-upload">
+
+                <div
+                    id="photoPreview"
+                    class="photo-preview">
+
+                    <i class="fa-solid fa-user"></i>
+
+                </div>
+
+
+                <div>
+
+                    <label
+                        for="photo"
+                        class="upload-button">
+
+                        <i class="fa-solid fa-cloud-arrow-up"></i>
+
+                        Add Your Photo
+
+                    </label>
+
+                    <input
+                        type="file"
+                        id="photo"
+                        accept="image/*"
+                        hidden>
+
+                    <p>
+                        JPG / PNG recommended
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             GENERATE BUTTON
+        ================================================= -->
+
+        <button
+            id="generateCV"
+            class="generate-cv">
+
+            <span>
+
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                GENERATE MY CV
+
+            </span>
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </button>
+
+
+        <p class="secure-text">
+
+            <i class="fa-solid fa-lock"></i>
+
+            Your information stays on your device.
+
+        </p>
+
+    </main>
+
+</section>
+
+
+
+<!-- =====================================================
+     PAGE 2 : CV PREVIEW
+===================================================== -->
+
+<section
+    id="cvPage"
+    class="cv-page hidden">
+
+
+    <div class="cv-topbar">
+
+        <button
+            id="backButton"
+            class="back-button">
+
+            <i class="fa-solid fa-arrow-left"></i>
+
+            Edit Information
+
+        </button>
+
+
+        <div class="cv-logo">
+
+            COCO
+
+            <span>
+                CV MAKER
+            </span>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="cv-wrapper">
+
+
+        <!-- A4 DOCUMENT -->
+
+        <div
+            id="cvDocument"
+            class="cv-document">
+
+
+            <!-- CV HEADER -->
+
+            <div class="cv-header">
+
+                <div>
+
+                    <h1 id="cvName">
+                        YOUR NAME
+                    </h1>
+
+                    <p id="cvHeadline">
+                        PROFESSIONAL
+                    </p>
+
+                </div>
+
+
+                <img
+                    id="cvPhoto"
+                    class="cv-photo"
+                    alt="Profile Photo">
+
+            </div>
+
+
+
+            <!-- CONTACT -->
+
+            <div class="contact-row">
+
+                <span>
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <span id="cvPhone">
+                    </span>
+
+                </span>
+
+
+                <span>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <span id="cvEmail">
+                    </span>
+
+                </span>
+
+
+                <span>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <span id="cvAddress">
+                    </span>
+
+                </span>
+
+            </div>
+
+
+
+            <!-- PROFILE -->
+
+            <div class="cv-section">
+
+                <h2>
+                    PROFILE
+                </h2>
+
+                <div class="gold-line"></div>
+
+                <p id="cvProfile">
+                </p>
+
+            </div>
+
+
+
+            <!-- EDUCATION -->
+
+            <div
+                class="cv-section"
+                id="cvEducationSection">
+
+                <h2>
+                    EDUCATION & QUALIFICATIONS
+                </h2>
+
+                <div class="gold-line"></div>
+
+                <div
+                    id="cvEducation">
+                </div>
+
+            </div>
+
+
+
+            <!-- EXPERIENCE -->
+
+            <div class="cv-section">
+
+                <h2>
+                    WORK EXPERIENCE
+                </h2>
+
+                <div class="gold-line"></div>
+
+                <div
+                    id="cvExperience">
+                </div>
+
+            </div>
+
+
+
+            <!-- PERSONAL -->
+
+            <div class="cv-section">
+
+                <h2>
+                    PERSONAL DETAILS
+                </h2>
+
+                <div class="gold-line"></div>
+
+                <div class="personal-details">
+
+                    <div>
+
+                        <strong>
+                            Date of Birth
+                        </strong>
+
+                        <span id="cvDOB">
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            Age
+                        </strong>
+
+                        <span id="cvAge">
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- FOOTER -->
+
+            <div class="cv-footer">
+
+                <span>
+                    COCO CV MAKER
+                </span>
+
+                <span>
+                    PROFESSIONAL • SIMPLE • ELEGANT
+                </span>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- PDF BUTTON -->
+
+        <button
+            id="downloadPDF"
+            class="pdf-button">
+
+            <i class="fa-solid fa-file-pdf"></i>
+
+            CREATE IN PDF
+
+        </button>
+
+
+        <p
+            id="pdfStatus"
+            class="pdf-status">
+        </p>
+
+    </div>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
